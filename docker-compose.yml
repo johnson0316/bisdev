@@ -4,5 +4,5 @@ services:
   mytest.web:
     image: mytest.web
     build:
-      context: ./mytest.web
+      context: ./MyTest.Web
       dockerfile: Dockerfile
