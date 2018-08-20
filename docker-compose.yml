@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  MyTest.Web:
-    image: MyTest.Web
+  mytest.web:
+    image: mytest.web
     build:
-      context: ./MyTest.Web
+      context: ./mytest.web
       dockerfile: Dockerfile
