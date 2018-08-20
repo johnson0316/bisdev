@@ -4,5 +4,5 @@ services:
   MyTest.Web:
     image: MyTest.Web
     build:
-      context: .
+      context: ./MyTest.Web
       dockerfile: MyTest.Web/Dockerfile
