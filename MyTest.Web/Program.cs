@@ -19,7 +19,7 @@ namespace MyTest.Web
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                   .UseUrls("http//*:80")
+                   .UseUrls("http//*:8008")
                 .UseStartup<Startup>()
                 .Build();
     }
