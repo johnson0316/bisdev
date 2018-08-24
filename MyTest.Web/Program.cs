@@ -20,10 +20,6 @@ namespace MyTest.Web
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                    .UseUrls("http//*:80")
-                   .UseKestrel()
-                   .UseContentRoot(Directory.GetCurrentDirectory())
-                   .UseIISIntegration()
-                   .UseApplicationInsights()
                 .UseStartup<Startup>()
                 .Build();
     }
